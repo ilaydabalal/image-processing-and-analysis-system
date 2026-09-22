@@ -1,6 +1,67 @@
-# Comprehensive Image Processing and Analysis System    
---- ## About the Project This is an interactive **Image Processing and Analysis** web application developed using Python and OpenCV libraries, powered by **Streamlit**. The project encompasses a wide range of computer vision techniques, from basic pixel transformations to advanced morphological analysis, filtering, and color space manipulations. --- ## Features and Modules * **Basic Operations:** Image Rotation, Cropping, Scaling (Zoom In / Zoom Out). * **Image Enhancement:** Contrast Adjustment, Histogram Stretching, Unsharp Mask, and Noise Addition/Removal. * **Filtering & Convolution:** Mean filtering and customizable convolution kernels. * **Thresholding and Transformations:** Binary Transformation, Grayscale, and Color Space Transformations (`RGB`, `Grayscale`, `HSV`, `YCrCb`). * **Morphological Operations:** Erosion, Dilation, Opening, and Closing. * **Arithmetic Operations:** Addition and factor-based division operations on two images. * **Reporting:** Instant PDF report generation and downloading containing the duration and details of performed operations. --- ## Technologies Used | Technology | Description | | :--- | :--- | | **Python** | Core programming language | | **Streamlit** | Interactive web interface and UI components | | **OpenCV (`cv2`)** | Image processing and computer vision engine | | **NumPy** | High-performance matrix and pixel-based computations | | **FPDF** | Automatic PDF report output generation | | **Matplotlib / Pillow** | Image processing and supporting libraries | --- ## Installation and Execution You can follow the steps below to run the project locally on your computer: ### 1. Clone the Repository ```bash git clone https://github.com/username/image_processing_project.git cd image_processing_project ``` ### 2. Install Required Libraries ```bash pip install streamlit numpy opencv-python Pillow matplotlib fpdf ``` ### 3. Run the Application ```bash python -m streamlit run main.py ``` ---
+<div align="center">
 
+# Comprehensive Image Processing and Analysis System
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+
+</div>
+
+---
+
+## About the Project  
+This is an interactive **Image Processing and Analysis** web application developed using Python and OpenCV libraries, powered by **Streamlit**. The project encompasses a wide range of computer vision techniques, from basic pixel transformations to advanced morphological analysis, filtering, and color space manipulations.
+
+---
+
+## Features and Modules  
+
+* **Basic Operations:** Image Rotation, Cropping, Scaling (Zoom In / Zoom Out).
+* **Image Enhancement:** Contrast Adjustment, Histogram Stretching, Unsharp Mask, and Noise Addition/Removal.
+* **Filtering & Convolution:** Mean filtering and customizable convolution kernels.
+* **Thresholding and Transformations:** Binary Transformation, Grayscale, and Color Space Transformations (`RGB`, `Grayscale`, `HSV`, `YCrCb`).
+* **Morphological Operations:** Erosion, Dilation, Opening, and Closing.
+* **Arithmetic Operations:** Addition and factor-based division operations on two images.
+* **Reporting:** Instant PDF report generation and downloading containing the duration and details of performed operations.
+
+---
+
+## Technologies Used  
+
+| Technology | Description |
+| :--- | :--- |
+| **Python** | Core programming language |
+| **Streamlit** | Interactive web interface and UI components |
+| **OpenCV (`cv2`)** | Image processing and computer vision engine |
+| **NumPy** | High-performance matrix and pixel-based computations |
+| **FPDF** | Automatic PDF report output generation |
+| **Matplotlib / Pillow** | Image processing and supporting libraries |
+
+---
+
+## Installation and Execution  
+
+You can follow the steps below to run the project locally on your computer:
+
+### 1. Clone the Repository  
+```bash
+git clone https://github.com/username/image_processing_project.git
+cd image_processing_project
+```
+
+### 2. Install Required Libraries  
+```bash
+pip install streamlit numpy opencv-python Pillow matplotlib fpdf
+```
+
+### 3. Run the Application  
+```bash
+python -m streamlit run main.py
+```
+
+---
 
 <div align="center">
 
