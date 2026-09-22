@@ -1,7 +1,6 @@
 <div align="center">
 
 # Kapsamlı Görüntü İşleme ve Analiz Sistemi
-### *Comprehensive Image Processing and Analysis System*
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -12,12 +11,12 @@
 
 ---
 
-## Proje Hakkında / About
+## Proje Hakkında 
 Python ve OpenCV kütüphaneleri kullanılarak geliştirilmiş, **Streamlit** tabanlı interaktif bir **Görüntü İşleme ve Analiz** web uygulamasıdır. Proje; temel piksel dönüşümlerinden gelişmiş morfolojik analizlere, filtrelemeden renk uzayı manipülasyonlarına kadar geniş bir yelpazede bilgisayarla görü tekniklerini barındırmaktadır.
 
 ---
 
-## Özellikler ve Modüller / Features & Modules
+## Özellikler ve Modüller
 
 * **Temel İşlemler:** Görüntü Döndürme, Kırpma, Ölçeklendirme (Yaklaştırma / Uzaklaştırma).
 * **Görüntü İyileştirme:** Kontrast Artırma, Histogram Germe, Unsharp Mask ve Gürültü Ekleme/Temizleme.
@@ -29,7 +28,7 @@ Python ve OpenCV kütüphaneleri kullanılarak geliştirilmiş, **Streamlit** ta
 
 ---
 
-## Kullanılan Teknolojiler / Tech Stack
+## Kullanılan Teknolojiler
 
 | Teknoloji | Açıklama |
 | :--- | :--- |
