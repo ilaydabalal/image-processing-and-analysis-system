@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+.stButton > button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.stButton > button:hover {
+    background-color: #45a049;
+    transform: scale(1.02);
+}
+
+.stSelectbox, .stSlider {
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #dee2e6;
+    margin: 20px 0;
+}
