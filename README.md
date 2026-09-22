@@ -1,59 +1,72 @@
-Kapsamlı Görüntü İşleme ve Analiz Sistemi (Comprehensive Image Processing and Analysis System)
+<div align="center">
 
-Python ve OpenCV kütüphaneleri kullanılarak geliştirilmiş, Streamlit tabanlı interaktif bir Görüntü İşleme ve Analiz web uygulamasıdır. Proje; temel piksel dönüşümlerinden gelişmiş morfolojik analizlere, filtrelemeden renk uzayı manipülasyonlarına kadar geniş bir yelpazede bilgisayarla görü tekniklerini barındırmaktadır.
+# 📷 Kapsamlı Görüntü İşleme ve Analiz Sistemi
+### *Comprehensive Image Processing and Analysis System*
 
-Özellikler ve Modüller (Features & Modules)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 
-Temel İşlemler: Görüntü Döndürme, Kırpma, Ölçeklendirme (Yaklaştırma / Uzaklaştırma).
+</div>
 
-Görüntü İyileştirme: Kontrast Artırma, Histogram Germe, Unsharp Mask ve Gürültü Ekleme/Temizleme.
+---
 
-Filtreleme & Konvolüsyon: Mean filtresi ve konvolüsyon çekirdekleri.
+## 📖 Proje Hakkında / About
+Python ve OpenCV kütüphaneleri kullanılarak geliştirilmiş, **Streamlit** tabanlı interaktif bir **Görüntü İşleme ve Analiz** web uygulamasıdır. Proje; temel piksel dönüşümlerinden gelişmiş morfolojik analizlere, filtrelemeden renk uzayı manipülasyonlarına kadar geniş bir yelpazede bilgisayarla görü tekniklerini barındırmaktadır.
 
-Eşikleme ve Dönüşümler: Binary Dönüşüm, Gri Seviye ve Renk Uzayı Dönüşümleri (RGB, Grayscale, HSV, YCrCb).
+---
 
-Morfolojik İşlemler: Aşındırma (Erosion), Genişletme (Dilation), Açma (Opening) ve Kapama (Closing).
+## 🚀 Özellikler ve Modüller / Features & Modules
 
-Aritmetik İşlemler: İki görsel üzerinde toplama ve bölme (faktör bazlı) işlemleri.
+* 🔄 **Temel İşlemler:** Görüntü Döndürme, Kırpma, Ölçeklendirme (Yaklaştırma / Uzaklaştırma).
+* 🎨 **Görüntü İyileştirme:** Kontrast Artırma, Histogram Germe, Unsharp Mask ve Gürültü Ekleme/Temizleme.
+* 🔍 **Filtreleme & Konvolüsyon:** Mean filtresi ve özelleştirilebilir konvolüsyon çekirdekleri.
+* 🔲 **Eşikleme ve Dönüşümler:** Binary Dönüşüm, Gri Seviye ve Renk Uzayı Dönüşümleri (`RGB`, `Grayscale`, `HSV`, `YCrCb`).
+* 🧬 **Morfolojik İşlemler:** Aşındırma (Erosion), Genişletme (Dilation), Açma (Opening) ve Kapama (Closing).
+* ➕ **Aritmetik İşlemler:** İki görsel üzerinde toplama ve faktör bazlı bölme işlemleri.
+* 📄 **Raporlama:** Yapılan işlemlerin süresini ve detaylarını içeren anlık PDF raporu oluşturma ve indirme.
 
-Raporlama: Yapılan işlemlerin süresini ve detaylarını içeren anlık PDF raporu oluşturma ve indirme.
+---
 
-Kullanılan Teknolojiler (Tech Stack)
+## 🛠️ Kullanılan Teknolojiler / Tech Stack
 
-Python (Programlama Dili)
+| Teknoloji | Açıklama |
+| :--- | :--- |
+| **Python** | Temel programlama dili |
+| **Streamlit** | İnteraktif web arayüzü ve UI bileşenleri |
+| **OpenCV (`cv2`)** | Görüntü işleme ve bilgisayarla görü motoru |
+| **NumPy** | Matris ve piksel tabanlı yüksek performanslı hesaplamalar |
+| **FPDF** | Otomatik PDF rapor çıktısı üretme |
+| **Matplotlib / Pillow** | Görsel işleme ve destekleyici kütüphaneler |
 
-Streamlit (Web Arayüzü)
+---
 
-OpenCV (cv2) (Görüntü İşleme Kütüphanesi)
+## ⚙️ Kurulum ve Çalıştırma / Installation & Running
 
-NumPy (Matris ve Piksel İşlemleri)
+Projeyi kendi bilgisayarınızda yerel ortamda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
-FPDF (Otomatik PDF Raporlama)
-
-Matplotlib / Pillow (Görsel İşleme Destekleri)
-
-Kurulum ve Çalıştırma (Installation & Running)
-
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
-
-Depoyu Klonlayın:
-
+### 1. Depoyu Klonlayın
+```bash
 git clone https://github.com/kullaniciadi/goruntu_isleme_projesi.git
 cd goruntu_isleme_projesi
+```
 
-
-Gerekli Kütüphaneleri Yükleyin:
-
+### 2. Gerekli Kütüphaneleri Yükleyin
+```bash
 pip install streamlit numpy opencv-python Pillow matplotlib fpdf
+```
 
-
-Uygulamayı Başlatın:
-
+### 3. Uygulamayı Başlatın
+```bash
 python -m streamlit run main.py
+```
 
+---
 
-Proje Yapısı (Project Structure)
+## 📂 Proje Yapısı / Project Structure
 
+```text
 goruntu_isleme_projesi/
 │
 ├── main.py                 # Ana Streamlit uygulama dosyası
@@ -66,4 +79,10 @@ goruntu_isleme_projesi/
 │   ├── olceklendirme.py
 │   ├── morfolojik_islemler.py
 │   └── aritmetik_islemler.py
-└── styles/                 # CSS stil dosyaları
+└── styles/                 # CSS özel stil dosyaları
+```
+
+---
+
+## 📄 Lisans / License
+Bu proje eğitim ve geliştirme amaçlı oluşturulmuştur. Dilediğiniz gibi inceleyebilir, fork'layabilir ve geliştirebilirsiniz.
